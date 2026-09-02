@@ -13,4 +13,3 @@ class Solution(object):
 #     if remaining in freq:
 #         return [freq[remaining],i]
 #     freq[nums[i]] = i
-    
