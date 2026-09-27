@@ -9,7 +9,5 @@ class Solution:
                 s_largest = largest
                 largest = arr[i]
             elif arr[i]>s_largest and arr[i] != largest:
-                
-                s_largest = arr[i]
-            
+                s_largest = arr[i]  
         return s_largest if s_largest != float("-inf") else -1
